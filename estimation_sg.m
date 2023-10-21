@@ -35,24 +35,6 @@ for i=1:m
     sg(i)=sg0(II(end));
 end
 %%% plot 
-figure
-y=112:-1:1;
-subplot(121)
-plot(100*sg,y,'LineWidth',2)
-ylabel('Depth[m]','FontSize',16)
-xlabel('Sg[%]','FontSize',16)
-ylim([1,112])
-yticks([1 112])
-yticklabels({'1572','1545'})
-subplot(122)
-plot(dec,y,'LineWidth',2)
-ylabel('Depth[m]','FontSize',16)
-xlabel('100\times(vp-vp(0))/vp(0)','FontSize',16)
-ylim([1,112])
-yticks([1 112])
-yticklabels({'1572','1545'})
-box on
-
 
 
 
